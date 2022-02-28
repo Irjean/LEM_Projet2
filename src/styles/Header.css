@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10vh;
+    padding-left: 20px;
+
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    list-style: none;
+    margin-right: 15px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MusicListContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

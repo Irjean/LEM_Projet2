@@ -1,0 +1,34 @@
+.CardContainer{
+    display: flex;
+    width: 20%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.CardContainer img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.TitleText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CardContainer span{
+    align-self: flex-start;
+}
+
+.CardButtonContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
